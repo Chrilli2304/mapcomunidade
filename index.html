@@ -3685,7 +3685,7 @@ function BusinessView({ business, onBack, onReport }) {
     }, 900);
   };
   return (
-    <div style={{ position: 'absolute', inset: 0, background: C.bg, overflowY: 'auto' }}>
+    <div style={{ position: 'absolute', inset: 0, background: C.bg, overflowY: 'auto', overscrollBehavior: 'none' }}>
       {/* Photo header */}
       <div style={{ height: 240, background: `linear-gradient(135deg, ${C.primary}, #2A6D3F)`, position: 'relative' }}>
         {/* placeholder striped */}
