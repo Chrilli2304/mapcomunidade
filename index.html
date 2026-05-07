@@ -3705,7 +3705,7 @@ function BusinessView({ business, onBack, onReport }) {
         </div>
       </div>
 
-      <div style={{ padding: '20px 16px 100px', background: C.bg, borderRadius: '20px 20px 0 0', marginTop: -20, position: 'relative', zIndex: 1 }}>
+      <div style={{ padding: '20px 16px 24px', background: C.bg, borderRadius: '20px 20px 0 0', marginTop: -20, position: 'relative', zIndex: 1 }}>
         <div style={{ display: 'flex', alignItems: 'flex-start', gap: 10 }}>
           <div style={{ flex: 1 }}>
             <h1 style={{ fontSize: 24, fontWeight: 800, color: C.text, margin: '0 0 6px' }}>{b.name}</h1>
@@ -3770,7 +3770,7 @@ function BusinessView({ business, onBack, onReport }) {
         {/* Update CTA */}
         <button onClick={() => setShowUpdate(true)} style={{
           width: '100%', minHeight: 52, marginTop: 20,
-          background: '#fff', color: C.primary, border: `2px solid ${C.primary}`,
+          background: C.primary, color: '#fff', border: 'none',
           borderRadius: 12, fontSize: 15, fontWeight: 700, cursor: 'pointer',
         }}>Report an update</button>
       </div>
